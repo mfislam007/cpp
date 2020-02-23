@@ -1,0 +1,19 @@
+
+class PrintClass{
+	public:
+	char charstring;
+	char print(char chatstring[]);
+};
+char PrintClass::print(char chatstring[]){		
+   
+  cout<<chatstring<<endl;
+   }
+
+int main()
+{
+char charstring[50];
+cout << "Input character string for printing:";
+cin.get(characterstring, 50);
+printClass printer;
+printer.print(Charsring);
+}

@@ -1,0 +1,13 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main(){
+	double leg1,leg2,hyp;
+	cout << "Input first triangle leg:";
+	cin >> leg1;
+	cout << "Input second triangle leg:";
+	cin >> leg2;
+	hyp = sqrt(pow(leg1,2) + pow(leg2,2));
+	cout << "Hypotenuse length: " << hyp << "\n";	
+}

@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double dollar;
+	double rate = 0.727802;
+	double euro;
+	cout << "How much dollars do you want to exchange:";
+	cin >> dollar;
+	euro = dollar * rate;
+	cout << "Amount in euros: " << euro << "\n";
+}

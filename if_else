@@ -1,0 +1,29 @@
+#include <algorithm>
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main(){
+	string gender;
+	int age;
+	cout << "Are you a male or a female (m/f):";
+	cin >> gender;
+	//gender = transform(data.begin(), data.end(), data.begin(),::tolower);
+	cout << "Your age:";
+	cin >> age;
+	if(gender == "m" && (age >=0 && age <=55)){
+		cout << "You are a man in his prime!\n";
+	}
+	   else if (gender == "m" && (age >56 && age <=100)){
+		   cout << "You are a wise man!\n";
+	   }
+		else if	(gender == "f" && (age >=0 && age <=55)){
+		cout << "You are like a blooming flower!\n";
+	}
+	   else if (gender == "f" && (age >56 && age <=100)){
+		   cout << "You look young for your age!\n";
+	   }
+		else{
+			cout << "Error encountered!\n";
+			}
+	}
